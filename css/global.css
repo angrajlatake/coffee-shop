@@ -1,0 +1,123 @@
+:root {
+    --primary-color-blue: #5bacc3;
+    --primary-color-pink: #fff0ed;
+    --secondary-color-graphite: #393939;
+    --secondary-color-grey: #f7f7f7;
+
+}
+/* * {
+    border: 1px dotted black;
+} */
+body {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    margin: 0;
+    color: var(--secondary-color-graphite);
+
+}
+.heading1, .heading2 {
+    font-size: 3.75rem;
+    font-weight: 300;
+    margin: 0;
+    
+}
+.heading3, .footer__heading {
+    font-size: 2.0625rem;
+    font-weight: 300;
+    margin: 0;
+}
+.text__regular {
+    font-size: 1.375rem;
+    font-weight: 400;
+}
+
+.text__regular--italic {
+    font-style: italic;
+}
+
+.text__regular--price {
+    font-size: 1.375rem;
+    font-weight: 400;
+    color: var(--primary-color-blue);
+    margin: 0;
+    padding-bottom: 1.25rem;
+}
+
+/* navigation bar */
+.nav {
+    margin: 0;
+    background-color: var(--primary-color-pink);
+    padding:1.25rem;
+}
+/* Secondary Navigation bar */
+.nav--secondary {
+    background-color: var(--secondary-color-graphite);
+    color: #f7f7f7;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    
+}
+
+.nav__logo{
+    min-width: 50px;
+    max-width: 7.5rem;
+    padding: 0;
+    display: inline-block;
+}
+.nav__heading {
+    display: inline-block;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+.nav__heading--link{
+    text-decoration: none;
+    color: var(--secondary-color-graphite);
+
+    
+}
+.nav__link{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--secondary-color-graphite);   
+}
+
+/* Shop now Navigation bar  */
+.nav__link--cta {
+    color: var(--primary-color-blue);
+}
+/* Secondary Navigation bar */
+.nav-secondary__link {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--primary-color-pink); 
+}
+
+.nav__list{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding-right: 1.25rem;
+}
+.nav__item{
+    display: inline-block;
+    padding: 0 1.25rem;
+}
+
+.btn {
+    background-color:var(--primary-color-blue);
+    color: white;
+    padding: 1.25rem;
+    border: 0;
+    min-width: 180px;
+    font-size: 1.3125rem;
+    font-weight: 400;
+  }
+
+.btn:hover{
+    background-color: black;
+  }
+
+
