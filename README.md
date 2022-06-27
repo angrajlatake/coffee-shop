@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="assets/coffee-beans-logo-and-footer.svg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Coffe Shop Website</h3>
@@ -18,7 +18,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<img src="assets/angrajlatake.github.io_coffee-shop_index.html.png" alt="Logo">
 
 The website, a landing page for Coffee Shop is divided into the following sections:
 
